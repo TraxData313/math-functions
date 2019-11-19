@@ -5,12 +5,10 @@
 <i>import math_utils</i>
 
 <hr>
-<br>
-<br>
 
 ## Functions:
 
-### c_map:
+#### c_map:
 - math_utils.c_map help:<br>
     """The function remaps the input from one range to another, just like:
     https://www.arduino.cc/reference/en/language/functions/math/map/
