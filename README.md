@@ -3,6 +3,8 @@
 ### Usage:
 - Download the math_utils.py to the code folder and import it by:<br>
 <i>import math_utils</i>
+- For function info check the description below
+- More function contend might be available if it has a sub-folder
 
 <hr>
 
