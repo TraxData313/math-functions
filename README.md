@@ -4,6 +4,11 @@
 - Download the math_utils.py to the code folder and import it by:<br>
 <i>import math_utils</i>
 
+<hr>
+<br>
+<br>
+
+## Functions:
 
 ### c_map:
 - math_utils.c_map help:<br>
