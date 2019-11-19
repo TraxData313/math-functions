@@ -1,4 +1,5 @@
-# math-functions
+# Python math functions
+- This math_utils module will group math functions I use for my projects in order to maximise consistency.
 
 ### Usage:
 - Download the math_utils.py to the code folder and import it by:<br>
