@@ -7,7 +7,7 @@
 - For function info check the description below
 - More function contend might be available if it has a sub-folder
 
-### Dependancies:
+### Dependencies:
 - Numpy: <i>pip install numpy</i>
 
 
