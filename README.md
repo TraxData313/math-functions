@@ -30,3 +30,7 @@
     Example:
     Array before the function: [-100, -50, 50, 100]
     Array after the function: [-1.0, -0.5, 0.5, 1.0]
+#### sigmoid(input_value: float):
+    Activation funcion: Standard sigmoid
+    
+    Returns: 1/(1 + np.exp(-input_value))
