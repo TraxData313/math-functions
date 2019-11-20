@@ -11,13 +11,18 @@
 
 ## Functions:
 
-#### c_map:
-- math_utils.c_map help:<br>
-    """The function remaps the input from one range to another, just like:
+#### c_map(user_input, in_min, in_max, out_min, out_max):
+    The function remaps the input from one range to another, just like:
     https://www.arduino.cc/reference/en/language/functions/math/map/
     
     Example:
     Map percents to ratios. If used with those params:
     c_map(user_input=50, in_min=0, in_max=100, out_min=0, out_max=1)
     the function will return 0.5 (since 50% = 0.5)
-    """
+
+#### standardize_array(array: list, out_min=-1, out_max=1):
+    The function standardizes the array of numbers (squishes the numbers linearly between -1 and 1)
+    
+    Example:
+    Array before the function: [-100, -50, 50, 100]
+    Array after the function: [-1.0, -0.5, 0.5, 1.0]
