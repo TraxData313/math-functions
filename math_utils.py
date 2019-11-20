@@ -1,3 +1,6 @@
+import numpy as np
+
+
 def c_map(user_input, in_min, in_max, out_min, out_max):
     """The function remaps the input from one range to another, just like:
     https://www.arduino.cc/reference/en/language/functions/math/map/
@@ -36,3 +39,11 @@ def standardize_array(array: list, out_min=-1, out_max=1):
         array[el] = c_map(array[el], in_min, in_max, out_min, out_max)
         
     return array
+    
+    
+def sigmoid(input_value: float):
+    """Activation funcion: Standard sigmoid
+    
+    Returns: 1/(1 + np.exp(-input_value))
+    """
+    return 1/(1 + np.exp(-input_value))
