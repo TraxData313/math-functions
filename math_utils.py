@@ -21,3 +21,18 @@ def c_map(user_input, in_min, in_max, out_min, out_max):
     
     # Calculate and return the output:
     return out_min + output_dist_from_min  
+    
+
+def standardize_array(array: list, out_min=-1, out_max=1):
+    """The function standardizes the array of numbers (squishes the numbers linearly between -1 and 1)
+    
+    Example:
+    Array before the function: [-100, -50, 50, 100]
+    Array after the function: [-1.0, -0.5, 0.5, 1.0]
+    """
+    in_min = np.min(array)
+    in_max = np.max(array)
+    for el in range(len(array)):
+        array[el] = c_map(array[el], in_min, in_max, out_min, out_max)
+        
+    return array
